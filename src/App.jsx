@@ -36,9 +36,7 @@ export default class App extends React.Component {
       settings: { focus: 25, short: 5, long: 15, every: 4, autoBreak: true, autoFocus: false, sound: true },
       mode: 'focus', running: false, endAt: 0, remaining: 25 * 60, cycle: 0,
       tasks: [
-        { id: 1, title: 'Lineer cebir — 3. bölüm problemleri', est: 3, count: 1, done: false },
-        { id: 2, title: 'HCI makalesini oku ve not çıkar', est: 2, count: 0, done: false },
-        { id: 3, title: 'Kelime tekrarı', est: 1, count: 1, done: true },
+        
       ],
       activeId: 1, stats: { day: today(), count: 0, minutes: 0 },
       draft: '', draftEst: 1, settingsOpen: false, helpOpen: false, toast: null,
